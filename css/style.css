@@ -1,0 +1,59 @@
+header {
+    background-color: blue;
+    position: relative;
+}
+nav#main-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: inline-block
+}
+nav#main-navbar ul li {
+  float: left;
+}
+
+nav#main-navbar ul li a {
+  display: block;
+  padding:10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav#main-navbar ul li a:hover {
+  background-color:#000;
+  text-decoration: underline overline;
+}
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#sidebar-container {
+  background-color: red;
+  height: 100%;
+  right:0;
+  width:20%;
+  position:fixed;
+}
+div#sidebar ul {
+  list-style-type:none;
+  padding:0;
+  text-align: center;
+}
+
+div#sidebar ul li a {
+  display: block; 
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 0;
+}
+div#sidebar ul li a:hover {
+  background-color:#000;
+}
+
+
+
+
